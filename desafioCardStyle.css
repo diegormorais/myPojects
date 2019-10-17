@@ -1,0 +1,53 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.curso {
+    /* box-sizing: border-box;  */
+    border: 1px solid #CCC;
+    margin: 8px;
+    width: 260px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+    display: inline-block;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.curso img {
+    width: 100%;
+    max-height: 50%;
+}
+
+.curso-info {
+    font-weight: 700;
+    margin: 0.3em;
+    height: 90px;
+    overflow: hidden;
+}
+.curso-info h4 {
+    margin: inherit;
+    font-size: 1.4em;
+}
+
+.curso-info p {
+    margin: inherit;
+}
+
+.curso-preco {
+    float: right;
+    padding: 10px;
+}
+
+.preco-de {
+    color: maroon;
+    font-weight: 600;
+    text-decoration: line-through; 
+}
+
+.preco-por {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1.4em;
+}
